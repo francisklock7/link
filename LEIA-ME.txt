@@ -1,0 +1,26 @@
+LINK TREE | link.francisklock.com.br
+
+Esta pasta e um projeto separado do site principal. Tem um arquivo so: index.html
+
+COMO COLOCAR NO AR
+1. No Vercel, crie um projeto novo e suba esta pasta
+   (do mesmo jeito que voce subiu o site principal).
+2. No projeto novo, va em Settings > Domains e adicione:
+   link.francisklock.com.br
+   Como o dominio ja usa os nameservers do Vercel, o registro e criado
+   automaticamente. Nao precisa mexer no Registro.br.
+3. Espere alguns minutos e abra link.francisklock.com.br no celular.
+4. Troque o link da bio do Instagram por link.francisklock.com.br
+
+OS DOIS BOTOES
+Mentoria:    https://francisklock.com.br/mentoria.html?utm_source=instagram&utm_medium=bio
+Site oficial: https://francisklock.com.br/
+
+O link da mentoria leva a marcacao de origem. Cada candidatura que chegar
+no Formspree vem com utm_source=instagram e utm_medium=bio, entao voce
+sabe quantas vieram da bio.
+
+PARA TROCAR OU ACRESCENTAR UM LINK
+Copie um bloco <a class="btn ..."> dentro de <nav class="links"> e troque
+o href, o titulo e o subtitulo. A classe btn-primary e o botao branco
+de destaque, a btn-secondary e o botao com borda.
